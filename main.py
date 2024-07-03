@@ -1,14 +1,14 @@
 import main_quest as mq
-horcrux_of_koshchei = mq.horcrux_of_koshchei
+horcrux_of_koshchey = mq.horcrux_of_koshchey
 
 ## YOUR CODE HERE
 
-
+print(horcrux_of_koshchey.keys())
 
 # HINTS
 
 ## Function to check the TYPE of the object (list, dict, string, etc.):
-# type(horcrux_of_koshchei)
+# type(horcrux_of_koshchey)
 
 # Some DICTIONARY methods to access keys, values, or key-value pairs:
 # Full list of dictionary methods: https://www.w3schools.com/python/python_ref_dictionary.asp
@@ -26,19 +26,19 @@ horcrux_of_koshchei = mq.horcrux_of_koshchei
 # my_dict["key_name"][1] == "index one"
 
 # Code Examples:
-# print(type(horcrux_of_koshchei))
-# print('====>> Items:\n', horcrux_of_koshchei.items() )
-# print('====>> Values:\n', horcrux_of_koshchei.values() )
-# print('====>> Keys:\n', horcrux_of_koshchei.keys() )
+# print(type(horcrux_of_koshchey))
+# print('====>> Items:\n', horcrux_of_koshchey.items() )
+# print('====>> Values:\n', horcrux_of_koshchey.values() )
+# print('====>> Keys:\n', horcrux_of_koshchey.keys() )
 
 # More Hints:
 
 # Use the type() function to understand what kind of object you are dealing with:
-# e.g., type(horcrux_of_koshchei['Buyan Island']) might return <class 'dict'> or <class 'list'>
+# e.g., type(horcrux_of_koshchey['Buyan Island']) might return <class 'dict'> or <class 'list'>
 
 # Explore nested objects step by step, and keep track of where you are:
 # e.g., 
-#       island = horcrux_of_koshchei['Buyan Island']
+#       island = horcrux_of_koshchey['Buyan Island']
 #       oak_tree = island['Ancient Oak']
 #       rabbit = oak_tree[0]['rabbit']
 
